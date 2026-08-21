@@ -86,3 +86,6 @@ Version 12: Public Writing now includes all verified authored traditional-media/
 
 
 Version 13: Rebuilt Public Engagement as a single consistently framed section; removed the duplicate legacy Public Writing section; standardized subtitle spacing, content width, card proportions, and list alignment.
+
+
+Version 14: Rebuilt Public Engagement as a single properly contained section; removed duplicate/legacy section causing left-offset and overflow; standardized spacing, widths, grids, lists, and responsive behavior.

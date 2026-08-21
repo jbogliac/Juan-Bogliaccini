@@ -480,3 +480,179 @@ footer{background:#182029;color:#e9e7e0;padding:42px 30px 28px}
     margin-top: 72px;
   }
 }
+
+
+/* v14 — clean Public Engagement layout */
+#writing.section {
+  padding-top: 105px;
+  padding-bottom: 120px;
+}
+#writing.section > .content {
+  max-width: 900px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#writing .feature-intro {
+  max-width: 900px;
+  margin: 0 0 0;
+}
+#writing .pe-subsection {
+  margin-top: 88px;
+  padding-top: 0;
+}
+#writing .pe-subsection:first-of-type {
+  margin-top: 82px;
+}
+#writing .pe-subsection > .eyebrow {
+  margin: 0 0 12px;
+}
+#writing .pe-subsection > h2 {
+  margin: 0 0 20px;
+}
+#writing .pe-subsection > .section-note {
+  max-width: 780px;
+  margin: 0 0 30px;
+  color: var(--muted);
+  font-size: .9rem;
+  line-height: 1.6;
+}
+#writing .pe-writing-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  width: 100%;
+}
+#writing .pe-writing-card {
+  min-width: 0;
+  min-height: 245px;
+  box-sizing: border-box;
+  background: var(--white);
+  border: 1px solid var(--line);
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+}
+#writing .pe-writing-card .year {
+  display: block;
+  margin-bottom: 12px;
+}
+#writing .pe-writing-card .eyebrow {
+  margin-bottom: 12px;
+}
+#writing .pe-writing-card h3 {
+  margin: 0 0 18px;
+  font-size: 1.28rem;
+  line-height: 1.25;
+}
+#writing .pe-writing-card .tag {
+  margin-top: auto;
+  align-self: flex-start;
+}
+#writing .rp-list,
+#writing .pe-list {
+  width: 100%;
+  border-top: 1px solid var(--line);
+  margin: 0;
+  padding: 0;
+}
+#writing .rp-item {
+  display: grid;
+  grid-template-columns: 64px minmax(0, 1fr);
+  gap: 20px;
+  align-items: start;
+  border-bottom: 1px solid var(--line);
+  padding: 17px 0;
+}
+#writing .rp-item h3 {
+  margin: 0 0 7px;
+  font-size: 1.02rem;
+  line-height: 1.35;
+  font-weight: 600;
+}
+#writing .rp-item .text-link {
+  font-size: .82rem;
+}
+#writing .year-inline {
+  display: inline-block;
+  min-width: 0;
+  font-size: .8rem;
+  font-weight: 700;
+  color: var(--muted);
+}
+#writing .pe-list {
+  list-style: none;
+}
+#writing .pe-list-item {
+  display: grid;
+  grid-template-columns: 52px auto auto minmax(0,1fr);
+  gap: 7px;
+  align-items: baseline;
+  margin: 0;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--line);
+  font-size: .86rem;
+  line-height: 1.5;
+}
+#writing .pe-list-item strong {
+  white-space: nowrap;
+}
+#writing .pe-list-item a {
+  min-width: 0;
+}
+#writing .talk-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0,1fr));
+  gap: 18px;
+  width: 100%;
+}
+#writing .talk-card {
+  min-width: 0;
+  min-height: 220px;
+  box-sizing: border-box;
+  background: var(--white);
+  border: 1px solid var(--line);
+  padding: 26px;
+  display: flex;
+  flex-direction: column;
+}
+#writing .talk-card .year {
+  margin-bottom: 12px;
+}
+#writing .talk-card .eyebrow {
+  margin-bottom: 10px;
+}
+#writing .talk-card h3 {
+  font-size: 1.12rem;
+  line-height: 1.3;
+  margin: 0 0 18px;
+}
+#writing .talk-card .tag {
+  margin-top: auto;
+  align-self: flex-start;
+}
+@media (max-width: 900px) {
+  #writing .pe-writing-grid,
+  #writing .talk-grid {
+    grid-template-columns: 1fr;
+  }
+  #writing .pe-list-item {
+    grid-template-columns: 52px minmax(0,1fr);
+  }
+  #writing .pe-list-item .dash {
+    display: none;
+  }
+  #writing .pe-list-item strong {
+    white-space: normal;
+  }
+}
+@media (max-width: 650px) {
+  #writing.section {
+    padding-left: 22px;
+    padding-right: 22px;
+  }
+  #writing .rp-item {
+    grid-template-columns: 52px minmax(0,1fr);
+    gap: 14px;
+  }
+}
