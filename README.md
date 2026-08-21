@@ -71,3 +71,15 @@ Version 6: Added the selected 2025 portrait photo to the homepage hero.
 
 
 Version 7: Adjusted portrait to remain within page margins, normalized About paragraph typography, and removed duplicate Cambridge University Press attribution.
+
+
+Version 9: Reorganized publications as Books → Refereed Articles → Refereed Book Chapters → Other Publications; replaced the old Razones y Personas writing section with researched public writing and a separate media/interviews section.
+
+
+Version 10: Public Writing now includes only authored pieces with links to original sources; unsupported CV-only entries were removed. Media & Interviews are separately identified and linked to original outlets.
+
+
+Version 11: Added verified Razones y Personas public-writing entries with direct original links; Public Engagement structure retained.
+
+
+Version 12: Public Writing now includes all verified authored traditional-media/policy pieces with original-source links, regardless of year; Razones y Personas is a separate blog subsection. CV-only and third-party interview/report items are excluded.
