@@ -2,48 +2,64 @@
 
 Static academic website rebuilt from the supplied Weebly content.
 
+## Current version
+
+This version includes:
+
+- a cleaner academic/editorial layout;
+- responsive navigation for desktop and mobile;
+- an **EN / ES language switch** in the top navigation, with the choice remembered in the browser;
+- more generous vertical spacing between major subsections;
+- the three project figures from the old site removed, while retaining the project text and links;
+- direct links to the **public UCU profile** and **public CVUy profile**;
+- custom domain configuration for `juanbogliaccini.com`.
+
 ## Structure
 
 - `index.html` — complete site
 - `styles.css` — visual design and responsive layout
-- `script.js` — mobile navigation
+- `script.js` — mobile navigation and language switch
 - `CNAME` — custom domain (`juanbogliaccini.com`)
-- `assets/` — original project images supplied with the source document
 
-## Recommended hosting: GitHub Pages
+## Hosting: GitHub Pages
 
 This site requires no server, database, build process, or framework. GitHub Pages is therefore a good fit and is available with GitHub Free for public repositories. GitHub Pages supports custom domains, including both the apex domain and `www` subdomain.
 
-### Deploy
+The intended repository is:
 
-1. Create a GitHub account if you do not already have one.
-2. Create a new **public** repository named `juanbogliaccini.github.io` (if that username is available for your GitHub account).
-3. Upload the contents of this folder to the repository root.
-4. In **Settings → Pages**, choose **Deploy from a branch**, select `main`, and choose `/ (root)`.
-5. In **Settings → Pages → Custom domain**, enter `juanbogliaccini.com`.
-6. At your domain registrar, configure DNS as GitHub recommends. For the apex domain, GitHub currently documents these A records:
-   - `185.199.108.153`
-   - `185.199.109.153`
-   - `185.199.110.153`
-   - `185.199.111.153`
-7. Add a `www` CNAME pointing to `YOUR-GITHUB-USERNAME.github.io` if you want both versions to work.
-8. Enable **Enforce HTTPS** in GitHub Pages once the certificate becomes available.
+`https://github.com/jbogliac/Juan-Bogliaccini`
 
-DNS changes can take some time to propagate.
+### Deploy / update
 
-## Alternative: Cloudflare Pages
+1. Upload the contents of this folder to the repository root.
+2. In **Settings → Pages**, choose **Deploy from a branch**, select `main`, and choose `/ (root)`.
+3. In **Settings → Pages → Custom domain**, enter `juanbogliaccini.com`.
+4. At Square, where the domain is managed, configure DNS to point the domain to GitHub Pages.
+5. Enable **Enforce HTTPS** in GitHub Pages once the certificate becomes available.
 
-Cloudflare Pages is also an excellent free option for this static site. Its current free plan lists unlimited static requests and bandwidth, with up to 500 builds per month. It can use a custom domain as well.
+## Domain DNS
 
-For this particular academic website, GitHub Pages is recommended because the site is simple, transparent, and easy to maintain directly from a GitHub repository.
+For the apex domain, GitHub currently documents these A records:
+
+- `185.199.108.153`
+- `185.199.109.153`
+- `185.199.110.153`
+- `185.199.111.153`
+
+For `www`, use a CNAME pointing to:
+
+`jbogliac.github.io`
+
+The existing Google mail redirect should be preserved when editing the Square DNS records.
+
+## External profiles
+
+- UCU public profile: https://www.ucu.edu.uy/institucional/docente/juan-a--bogliaccini--221d
+- CVUy public CV: https://exportcvuy.anii.org.uy/cvsni/
 
 ## Future updates
 
-The easiest workflow is simply:
-
-1. edit `index.html`;
-2. replace/add files in `assets/` when needed;
-3. commit and push to GitHub;
-4. GitHub Pages publishes the change automatically.
-
 The old Weebly document contained references to PDFs, appendices, replication files and syllabi that were not included in the supplied source package. Those can be added later without changing the site's architecture.
+
+
+Version 4: Books section placed before Refereed Articles; Empowering Labor publisher corrected to Cambridge University Press.

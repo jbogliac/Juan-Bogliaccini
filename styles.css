@@ -135,3 +135,23 @@ footer{background:#182029;color:#e9e7e0;padding:42px 30px 28px}
   .project-body{padding:28px}
   footer{padding-left:20px;padding-right:20px}
 }
+
+/* Refinements: language switch, spacing, and image-free project cards */
+.lang-toggle{display:inline-flex;align-items:center;gap:2px;margin-left:4px;padding:3px;border:1px solid var(--line);border-radius:999px;background:var(--white);cursor:pointer}
+.lang-toggle span{padding:4px 7px;border-radius:999px;font:700 .62rem/1 var(--sans);letter-spacing:.08em;color:var(--muted)}
+.lang-toggle span.active{background:var(--ink);color:#fff}
+.section>.section-label{margin-bottom:48px}
+.subsection{margin-top:96px;padding-top:8px}
+.content>h2{margin-top:10px;margin-bottom:36px}
+.book-grid + .subsection{margin-top:100px}
+.project-grid{grid-template-columns:1fr;gap:28px}
+.project{grid-template-columns:1fr}
+.project-body{padding:42px 46px}
+.project-body h2{margin-bottom:24px}
+.footer-links{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+.footer-links a{font-size:.68rem}
+@media(max-width:850px){
+  .lang-toggle{margin-left:0;margin-top:6px}
+  .section>.section-label{margin-bottom:40px}
+  .project-body{padding:34px 30px}
+}
