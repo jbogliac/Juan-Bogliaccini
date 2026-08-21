@@ -89,3 +89,6 @@ Version 13: Rebuilt Public Engagement as a single consistently framed section; r
 
 
 Version 14: Rebuilt Public Engagement as a single properly contained section; removed duplicate/legacy section causing left-offset and overflow; standardized spacing, widths, grids, lists, and responsive behavior.
+
+
+Version 15: Top navigation label changed from Books to Publications; added the 2025 Carlos Real de Azúa Book Award to Empowering Labor; restored Cambridge University Press in the About text.

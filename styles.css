@@ -656,3 +656,13 @@ footer{background:#182029;color:#e9e7e0;padding:42px 30px 28px}
     gap: 14px;
   }
 }
+
+
+/* v15: book award */
+.book-award {
+  margin-top: 1.1rem;
+  font-size: 0.9rem;
+  line-height: 1.45;
+  font-weight: 600;
+  color: #9b3039;
+}
