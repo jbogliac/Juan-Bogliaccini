@@ -183,3 +183,45 @@ footer{background:#182029;color:#e9e7e0;padding:42px 30px 28px}
     margin: 0 auto 1.75rem;
   }
 }
+
+
+/* v7 portrait layout: keep photo inside the main content margins */
+.hero-photo {
+  float: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 220px;
+  margin: 0;
+}
+.hero-photo img {
+  width: 100%;
+  max-width: 220px;
+  height: 220px;
+  object-fit: cover;
+  object-position: center 22%;
+  border-radius: 4px;
+}
+@media (max-width: 760px) {
+  .hero-photo {
+    position: relative;
+    right: auto;
+    top: auto;
+    width: 150px;
+    margin: 0 auto 1.75rem;
+  }
+  .hero-photo img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (min-width: 761px) {
+  .hero,
+  .hero-content {
+    position: relative;
+  }
+  .hero-content {
+    padding-right: 260px;
+  }
+}

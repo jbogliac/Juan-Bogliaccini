@@ -68,3 +68,6 @@ Version 5: Removed Research Projects section entirely; standardized subtitle spa
 
 
 Version 6: Added the selected 2025 portrait photo to the homepage hero.
+
+
+Version 7: Adjusted portrait to remain within page margins, normalized About paragraph typography, and removed duplicate Cambridge University Press attribution.
