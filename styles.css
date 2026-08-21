@@ -361,3 +361,122 @@ footer{background:#182029;color:#e9e7e0;padding:42px 30px 28px}
     gap: .25rem;
   }
 }
+
+
+/* v13 — Public Engagement: align with the rest of the site */
+.public-engagement-section {
+  padding-top: 105px;
+  padding-bottom: 120px;
+}
+.public-engagement-content {
+  max-width: 1120px !important;
+}
+.public-engagement-content .feature-intro {
+  max-width: 900px;
+  margin-bottom: 0;
+}
+.public-engagement-content .feature-intro > p:last-child {
+  margin-bottom: 0;
+}
+.pe-subsection {
+  margin-top: 92px;
+}
+.pe-subsection > .eyebrow {
+  margin-bottom: 14px;
+}
+.pe-subsection > h2 {
+  margin: 0 0 22px;
+}
+.pe-subsection > .section-note {
+  max-width: 900px;
+  margin: 0 0 28px;
+  color: var(--muted);
+  font-size: .9rem;
+  line-height: 1.65;
+}
+.public-writing-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+.public-writing-grid .writing-card {
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+}
+.public-writing-grid .writing-card h3 {
+  margin-bottom: 14px;
+}
+.public-writing-grid .writing-card p:not(.eyebrow) {
+  margin-top: 0;
+}
+.public-writing-grid .writing-card .tag {
+  margin-top: auto;
+  align-self: flex-start;
+}
+.pe-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-top: 1px solid var(--line);
+}
+.pe-two-col {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 48px;
+}
+.pe-list-item {
+  margin: 0;
+  padding: 13px 0;
+  border-bottom: 1px solid var(--line);
+  font-size: .88rem;
+  line-height: 1.5;
+}
+.pe-list-item a {
+  color: var(--ink);
+}
+.pe-list-item a:hover {
+  color: var(--accent);
+}
+.year-inline {
+  display: inline-block;
+  min-width: 42px;
+  color: var(--muted);
+  font-size: .76rem;
+  font-weight: 700;
+  letter-spacing: .04em;
+}
+.talk-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+.pe-talk {
+  background: var(--white);
+  border: 1px solid var(--line);
+  padding: 28px;
+  min-height: 210px;
+  display: flex;
+  flex-direction: column;
+}
+.pe-talk h3 {
+  font-size: 1.18rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.pe-talk .tag {
+  margin-top: auto;
+  align-self: flex-start;
+}
+@media(max-width:850px){
+  .public-engagement-content {
+    max-width: 100% !important;
+  }
+  .public-writing-grid,
+  .pe-two-col,
+  .talk-grid {
+    grid-template-columns: 1fr;
+  }
+  .pe-subsection {
+    margin-top: 72px;
+  }
+}

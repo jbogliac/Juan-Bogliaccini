@@ -83,3 +83,6 @@ Version 11: Added verified Razones y Personas public-writing entries with direct
 
 
 Version 12: Public Writing now includes all verified authored traditional-media/policy pieces with original-source links, regardless of year; Razones y Personas is a separate blog subsection. CV-only and third-party interview/report items are excluded.
+
+
+Version 13: Rebuilt Public Engagement as a single consistently framed section; removed the duplicate legacy Public Writing section; standardized subtitle spacing, content width, card proportions, and list alignment.
