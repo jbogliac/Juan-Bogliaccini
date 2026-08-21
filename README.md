@@ -63,3 +63,8 @@ The old Weebly document contained references to PDFs, appendices, replication fi
 
 
 Version 4: Books section placed before Refereed Articles; Empowering Labor publisher corrected to Cambridge University Press.
+
+Version 5: Removed Research Projects section entirely; standardized subtitle spacing; added explicit Cambridge University Press publisher and official book link for Empowering Labor; separated Refereed Articles into its own section after Books.
+
+
+Version 6: Added the selected 2025 portrait photo to the homepage hero.
